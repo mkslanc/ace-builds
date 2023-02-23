@@ -192,7 +192,8 @@ require("../config").defineOptions(Editor.prototype, "editor", {
 });
 dom.importCssString("\n.ace_codeLens {\n    position: absolute;\n    color: #aaa;\n    font-size: 88%;\n    background: inherit;\n    width: 100%;\n    display: flex;\n    align-items: flex-end;\n    pointer-events: none;\n}\n.ace_codeLens > a {\n    cursor: pointer;\n    pointer-events: auto;\n}\n.ace_codeLens > a:hover {\n    color: #0000ff;\n    text-decoration: underline;\n}\n.ace_dark > .ace_codeLens > a:hover {\n    color: #4e94ce;\n}\n", "codelense.css", false);
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/ext/code_lens"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

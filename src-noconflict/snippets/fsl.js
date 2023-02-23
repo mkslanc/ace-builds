@@ -6,7 +6,8 @@ ace.define("ace/snippets/fsl",["require","exports","module","ace/snippets/fsl.sn
 exports.snippetText = require("./fsl.snippets");
 exports.scope = "fsl";
 
-});                (function() {
+});
+                (function() {
                     ace.require(["ace/snippets/fsl"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

@@ -6,7 +6,8 @@ define("ace/snippets/perl",["require","exports","module","ace/snippets/perl.snip
 exports.snippetText = require("./perl.snippets");
 exports.scope = "perl";
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/snippets/perl"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

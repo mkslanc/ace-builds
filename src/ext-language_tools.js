@@ -1055,10 +1055,7 @@ var AcePopup = function (parentNode) {
             selected.id = ariaId;
             popup.renderer.container.setAttribute("aria-activedescendant", ariaId);
             el.setAttribute("aria-activedescendant", ariaId);
-            selected.setAttribute("role", "option");
             selected.setAttribute("aria-label", popup.getData(row).value);
-            selected.setAttribute("aria-setsize", popup.data.length);
-            selected.setAttribute("aria-posinset", row);
         }
     });
     var hideHoverMarker = function () { setHoverMarker(-1); };
@@ -1329,8 +1326,7 @@ var Autocomplete = function () {
             this.$init();
         this.popup.autoSelect = this.autoSelect;
         this.popup.setData(this.completions.filtered, this.completions.filterText);
-        if (this.editor.textInput.setAriaOptions)
-            this.editor.textInput.setAriaOptions({ activeDescendant: getAriaId(this.popup.getRow()) });
+        this.editor.textInput.setAriaOptions({ activeDescendant: getAriaId(this.popup.getRow()) });
         editor.keyBinding.addKeyboardHandler(this.keyboardHandler);
         var renderer = editor.renderer;
         this.popup.setRow(this.autoSelect ? 0 : -1);
@@ -1975,7 +1971,8 @@ require("../config").defineOptions(Editor.prototype, "editor", {
     }
 });
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/ext/language_tools"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

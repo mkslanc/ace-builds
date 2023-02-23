@@ -6,7 +6,8 @@ define("ace/snippets/django",["require","exports","module","ace/snippets/django.
 exports.snippetText = require("./django.snippets");
 exports.scope = "django";
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/snippets/django"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

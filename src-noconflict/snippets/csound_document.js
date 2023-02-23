@@ -6,7 +6,8 @@ ace.define("ace/snippets/csound_document",["require","exports","module","ace/sni
 exports.snippetText = require("./csound_document.snippets");
 exports.scope = "csound_document";
 
-});                (function() {
+});
+                (function() {
                     ace.require(["ace/snippets/csound_document"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

@@ -6,7 +6,8 @@ define("ace/snippets/robot",["require","exports","module","ace/snippets/robot.sn
 exports.snippetText = require("./robot.snippets");
 exports.scope = "robot";
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/snippets/robot"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

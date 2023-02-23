@@ -37,7 +37,8 @@ var StatusBar = function (editor, parentNode) {
 }).call(StatusBar.prototype);
 exports.StatusBar = StatusBar;
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/ext/statusbar"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

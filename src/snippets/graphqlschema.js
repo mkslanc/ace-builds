@@ -6,7 +6,8 @@ define("ace/snippets/graphqlschema",["require","exports","module","ace/snippets/
 exports.snippetText = require("./graphqlschema.snippets");
 exports.scope = "graphqlschema";
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/snippets/graphqlschema"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

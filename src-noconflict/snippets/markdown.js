@@ -6,7 +6,8 @@ ace.define("ace/snippets/markdown",["require","exports","module","ace/snippets/m
 exports.snippetText = require("./markdown.snippets");
 exports.scope = "markdown";
 
-});                (function() {
+});
+                (function() {
                     ace.require(["ace/snippets/markdown"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

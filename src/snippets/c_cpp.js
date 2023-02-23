@@ -6,7 +6,8 @@ define("ace/snippets/c_cpp",["require","exports","module","ace/snippets/c_cpp.sn
 exports.snippetText = require("./c_cpp.snippets");
 exports.scope = "c_cpp";
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/snippets/c_cpp"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

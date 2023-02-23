@@ -6,7 +6,8 @@ define("ace/snippets/actionscript",["require","exports","module","ace/snippets/a
 exports.snippetText = require("./actionscript.snippets");
 exports.scope = "actionscript";
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/snippets/actionscript"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

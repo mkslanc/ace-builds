@@ -6,7 +6,8 @@ ace.define("ace/snippets/haml",["require","exports","module","ace/snippets/haml.
 exports.snippetText = require("./haml.snippets");
 exports.scope = "haml";
 
-});                (function() {
+});
+                (function() {
                     ace.require(["ace/snippets/haml"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

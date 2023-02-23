@@ -6,7 +6,8 @@ ace.define("ace/snippets/php",["require","exports","module","ace/snippets/php.sn
 exports.snippetText = require("./php.snippets");
 exports.scope = "php";
 
-});                (function() {
+});
+                (function() {
                     ace.require(["ace/snippets/php"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

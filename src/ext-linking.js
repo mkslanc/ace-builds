@@ -46,7 +46,8 @@ function onClick(e) {
     }
 }
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/ext/linking"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

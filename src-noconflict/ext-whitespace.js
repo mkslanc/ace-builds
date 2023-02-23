@@ -182,7 +182,8 @@ exports.commands = [{
         }
     }];
 
-});                (function() {
+});
+                (function() {
                     ace.require(["ace/ext/whitespace"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

@@ -727,7 +727,8 @@ var OptionPanel = function (editor, element) {
 }).call(OptionPanel.prototype);
 exports.OptionPanel = OptionPanel;
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/ext/options"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

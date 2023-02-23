@@ -6,7 +6,8 @@ ace.define("ace/snippets/diff",["require","exports","module","ace/snippets/diff.
 exports.snippetText = require("./diff.snippets");
 exports.scope = "diff";
 
-});                (function() {
+});
+                (function() {
                     ace.require(["ace/snippets/diff"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

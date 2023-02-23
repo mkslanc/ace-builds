@@ -202,7 +202,8 @@ oop.inherits(Mode, TextMode);
 }).call(Mode.prototype);
 exports.Mode = Mode;
 
-});                (function() {
+});
+                (function() {
                     ace.require(["ace/mode/tex"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

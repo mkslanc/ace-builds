@@ -6,7 +6,8 @@ define("ace/snippets/erlang",["require","exports","module","ace/snippets/erlang.
 exports.snippetText = require("./erlang.snippets");
 exports.scope = "erlang";
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/snippets/erlang"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

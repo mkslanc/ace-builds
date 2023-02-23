@@ -8,7 +8,8 @@ exports.cssText = require("./cloud9_night_low_color.css");
 var dom = require("../lib/dom");
 dom.importCssString(exports.cssText, exports.cssClass);
 
-});                (function() {
+});
+                (function() {
                     ace.require(["ace/theme/cloud9_night_low_color"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

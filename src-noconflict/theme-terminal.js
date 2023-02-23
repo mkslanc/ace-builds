@@ -8,7 +8,8 @@ exports.cssText = require("./terminal.css");
 var dom = require("../lib/dom");
 dom.importCssString(exports.cssText, exports.cssClass, false);
 
-});                (function() {
+});
+                (function() {
                     ace.require(["ace/theme/terminal"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

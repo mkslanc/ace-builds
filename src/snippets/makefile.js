@@ -6,7 +6,8 @@ define("ace/snippets/makefile",["require","exports","module","ace/snippets/makef
 exports.snippetText = require("./makefile.snippets");
 exports.scope = "makefile";
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/snippets/makefile"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

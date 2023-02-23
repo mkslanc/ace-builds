@@ -6,7 +6,8 @@ define("ace/snippets/rst",["require","exports","module","ace/snippets/rst.snippe
 exports.snippetText = require("./rst.snippets");
 exports.scope = "rst";
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/snippets/rst"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

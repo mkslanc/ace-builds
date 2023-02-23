@@ -9,7 +9,8 @@ exports.cssText = require("./cloud9_day.css");
 var dom = require("../lib/dom");
 dom.importCssString(exports.cssText, exports.cssClass);
 
-});                (function() {
+});
+                (function() {
                     ace.require(["ace/theme/cloud9_day"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

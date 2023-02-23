@@ -6,7 +6,8 @@ define("ace/snippets/coffee",["require","exports","module","ace/snippets/coffee.
 exports.snippetText = require("./coffee.snippets");
 exports.scope = "coffee";
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/snippets/coffee"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

@@ -8,7 +8,8 @@ exports.cssText = require("./tomorrow_night_eighties.css");
 var dom = require("../lib/dom");
 dom.importCssString(exports.cssText, exports.cssClass, false);
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/theme/tomorrow_night_eighties"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

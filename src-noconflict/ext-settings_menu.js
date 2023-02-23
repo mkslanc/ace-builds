@@ -749,7 +749,8 @@ module.exports.init = function () {
     };
 };
 
-});                (function() {
+});
+                (function() {
                     ace.require(["ace/ext/settings_menu"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

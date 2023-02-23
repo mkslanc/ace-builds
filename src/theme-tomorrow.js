@@ -8,7 +8,8 @@ exports.cssText = require("./tomorrow.css");
 var dom = require("../lib/dom");
 dom.importCssString(exports.cssText, exports.cssClass, false);
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/theme/tomorrow"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

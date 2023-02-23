@@ -6,7 +6,8 @@ ace.define("ace/snippets/maze",["require","exports","module","ace/snippets/maze.
 exports.snippetText = require("./maze.snippets");
 exports.scope = "maze";
 
-});                (function() {
+});
+                (function() {
                     ace.require(["ace/snippets/maze"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

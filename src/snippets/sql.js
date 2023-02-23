@@ -6,7 +6,8 @@ define("ace/snippets/sql",["require","exports","module","ace/snippets/sql.snippe
 exports.snippetText = require("./sql.snippets");
 exports.scope = "sql";
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/snippets/sql"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

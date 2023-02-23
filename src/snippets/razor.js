@@ -6,7 +6,8 @@ define("ace/snippets/razor",["require","exports","module","ace/snippets/razor.sn
 exports.snippetText = require("./razor.snippets");
 exports.scope = "razor";
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/snippets/razor"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

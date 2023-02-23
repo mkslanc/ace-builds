@@ -6,7 +6,8 @@ ace.define("ace/snippets/wollok",["require","exports","module","ace/snippets/wol
 exports.snippetText = require("./wollok.snippets");
 exports.scope = "wollok";
 
-});                (function() {
+});
+                (function() {
                     ace.require(["ace/snippets/wollok"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

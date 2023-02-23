@@ -8,7 +8,8 @@ exports.cssText = require("./pastel_on_dark.css");
 var dom = require("../lib/dom");
 dom.importCssString(exports.cssText, exports.cssClass, false);
 
-});                (function() {
+});
+                (function() {
                     ace.require(["ace/theme/pastel_on_dark"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

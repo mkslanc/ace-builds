@@ -6,7 +6,8 @@ define("ace/snippets/liquid",["require","exports","module","ace/snippets/liquid.
 exports.snippetText = require("./liquid.snippets");
 exports.scope = "liquid";
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/snippets/liquid"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

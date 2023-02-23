@@ -6,7 +6,8 @@ define("ace/snippets/css",["require","exports","module","ace/snippets/css.snippe
 exports.snippetText = require("./css.snippets");
 exports.scope = "css";
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/snippets/css"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

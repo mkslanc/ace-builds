@@ -6,7 +6,8 @@ define("ace/snippets/ruby",["require","exports","module","ace/snippets/ruby.snip
 exports.snippetText = require("./ruby.snippets");
 exports.scope = "ruby";
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/snippets/ruby"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

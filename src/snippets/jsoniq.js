@@ -68,7 +68,8 @@ define("ace/snippets/jsoniq",["require","exports","module","ace/snippets/jsoniq.
 exports.snippetText = require("./jsoniq.snippets");
 exports.scope = "jsoniq";
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/snippets/jsoniq"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

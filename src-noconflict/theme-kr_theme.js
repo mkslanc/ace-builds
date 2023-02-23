@@ -8,7 +8,8 @@ exports.cssText = require("./kr_theme.css");
 var dom = require("../lib/dom");
 dom.importCssString(exports.cssText, exports.cssClass, false);
 
-});                (function() {
+});
+                (function() {
                     ace.require(["ace/theme/kr_theme"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

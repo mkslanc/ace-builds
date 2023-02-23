@@ -6,7 +6,8 @@ define("ace/snippets/csound_orchestra",["require","exports","module","ace/snippe
 exports.snippetText = require("./csound_orchestra.snippets");
 exports.scope = "csound_orchestra";
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/snippets/csound_orchestra"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

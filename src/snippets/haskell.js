@@ -6,7 +6,8 @@ define("ace/snippets/haskell",["require","exports","module","ace/snippets/haskel
 exports.snippetText = require("./haskell.snippets");
 exports.scope = "haskell";
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/snippets/haskell"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

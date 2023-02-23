@@ -6,7 +6,8 @@ define("ace/snippets/sh",["require","exports","module","ace/snippets/sh.snippets
 exports.snippetText = require("./sh.snippets");
 exports.scope = "sh";
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/snippets/sh"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

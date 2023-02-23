@@ -6,7 +6,8 @@ define("ace/snippets/clojure",["require","exports","module","ace/snippets/clojur
 exports.snippetText = require("./clojure.snippets");
 exports.scope = "clojure";
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/snippets/clojure"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

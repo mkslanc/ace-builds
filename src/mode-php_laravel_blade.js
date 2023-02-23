@@ -13944,7 +13944,8 @@ oop.inherits(Mode, PHPMode);
 }).call(Mode.prototype);
 exports.Mode = Mode;
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/mode/php_laravel_blade"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

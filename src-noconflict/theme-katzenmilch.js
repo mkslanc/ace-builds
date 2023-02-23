@@ -8,7 +8,8 @@ exports.cssText = require("./katzenmilch.css");
 var dom = require("../lib/dom");
 dom.importCssString(exports.cssText, exports.cssClass, false);
 
-});                (function() {
+});
+                (function() {
                     ace.require(["ace/theme/katzenmilch"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

@@ -6,7 +6,8 @@ ace.define("ace/snippets/python",["require","exports","module","ace/snippets/pyt
 exports.snippetText = require("./python.snippets");
 exports.scope = "python";
 
-});                (function() {
+});
+                (function() {
                     ace.require(["ace/snippets/python"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

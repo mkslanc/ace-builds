@@ -6,7 +6,8 @@ define("ace/snippets/tcl",["require","exports","module","ace/snippets/tcl.snippe
 exports.snippetText = require("./tcl.snippets");
 exports.scope = "tcl";
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/snippets/tcl"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

@@ -68,7 +68,8 @@ ace.define("ace/snippets/xquery",["require","exports","module","ace/snippets/xqu
 exports.snippetText = require("./xquery.snippets");
 exports.scope = "xquery";
 
-});                (function() {
+});
+                (function() {
                     ace.require(["ace/snippets/xquery"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

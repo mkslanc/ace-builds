@@ -6,7 +6,8 @@ define("ace/snippets/gobstones",["require","exports","module","ace/snippets/gobs
 exports.snippetText = require("./gobstones.snippets");
 exports.scope = "gobstones";
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/snippets/gobstones"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

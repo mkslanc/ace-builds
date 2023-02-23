@@ -6,7 +6,8 @@ define("ace/snippets/edifact",["require","exports","module","ace/snippets/edifac
 exports.snippetText = require("./edifact.snippets");
 exports.scope = "edifact";
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/snippets/edifact"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

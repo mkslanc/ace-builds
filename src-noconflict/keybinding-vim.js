@@ -6663,7 +6663,8 @@ exports.handler.defaultKeymap = defaultKeymap;
 exports.handler.actions = actions;
 exports.Vim = vimApi;
 
-});                (function() {
+});
+                (function() {
                     ace.require(["ace/keyboard/vim"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

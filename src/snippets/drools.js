@@ -6,7 +6,8 @@ define("ace/snippets/drools",["require","exports","module","ace/snippets/drools.
 exports.snippetText = require("./drools.snippets");
 exports.scope = "drools";
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/snippets/drools"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

@@ -952,7 +952,8 @@ oop.inherits(Mode, JavaScriptMode);
 }).call(Mode.prototype);
 exports.Mode = Mode;
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/mode/scala"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

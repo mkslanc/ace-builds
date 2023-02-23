@@ -8,7 +8,8 @@ exports.cssText = require("./mono_industrial.css");
 var dom = require("../lib/dom");
 dom.importCssString(exports.cssText, exports.cssClass, false);
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/theme/mono_industrial"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

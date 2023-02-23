@@ -6,7 +6,8 @@ ace.define("ace/snippets/lua",["require","exports","module","ace/snippets/lua.sn
 exports.snippetText = require("./lua.snippets");
 exports.scope = "lua";
 
-});                (function() {
+});
+                (function() {
                     ace.require(["ace/snippets/lua"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

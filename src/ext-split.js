@@ -175,7 +175,8 @@ exports.Split = Split;
 define("ace/ext/split",["require","exports","module","ace/split"], function(require, exports, module){"use strict";
 module.exports = require("../split");
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/ext/split"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

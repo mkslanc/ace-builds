@@ -8,7 +8,8 @@ exports.cssText = require("./merbivore_soft.css");
 var dom = require("../lib/dom");
 dom.importCssString(exports.cssText, exports.cssClass, false);
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/theme/merbivore_soft"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

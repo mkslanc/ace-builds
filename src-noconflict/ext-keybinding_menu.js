@@ -123,7 +123,8 @@ module.exports.init = function (editor) {
         }]);
 };
 
-});                (function() {
+});
+                (function() {
                     ace.require(["ace/ext/keybinding_menu"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

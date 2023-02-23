@@ -393,7 +393,8 @@ ApexMode.prototype.blockComment = {
 };
 exports.Mode = ApexMode;
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/mode/apex"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;
